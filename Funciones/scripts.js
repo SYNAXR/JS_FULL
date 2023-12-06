@@ -12,7 +12,6 @@ function hi(){
 /*
 //Llamamos a la función...
 hi()
-
 */
 
 //Vamos a pasar parámetros a las funciones
@@ -22,7 +21,6 @@ function saludar (name, age) {
     //Abajo declaramos el return que debe darnos la función...
     return "You have been spotted";
 }
-
 
 //Aquí recibimos de vuelta el valor del return
 let returned_value = saludar(`Aurelio`, 26)
