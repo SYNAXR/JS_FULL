@@ -11,7 +11,10 @@ console.log(color);
 /*
 color = 'yellow'; //this will result in error
 */
-
+let mimode=function(ax){
+        return 2*ax;
+}
+console.log(mimode(2));
 //Declarar variable
 let nombre;
 //Inicializar variable
