@@ -84,9 +84,41 @@ let d = new Date(); //d stores the current date and time
 
 //Fri Jan 02 1970 00:00:00
 let d1 = new Date(86400000);
+console.log(d1)
 
 //Fri Jan 02 2015 10:42:00
-let d2 = new Date("January 2, 2015 10:42:00");
+let d2 = new Date("July 7, 2019 10:42:00");
+console.log(d2)
 
 //Sat Jun 11 1988 11:42:00
 let d3 = new Date(88,5,11,11,42,0,0);
+console.log(d3)
+
+console.log("Objetos literales")
+
+//Objetos literales
+let pet_name = "Kenai"
+let pet_age = 7
+
+const dog = {
+    pet_name: pet_name,
+    pet_age: pet_age,
+    ladrar: function() {
+        console.log("Waff! Waff!")
+    }
+}
+console.log(dog);
+dog.ladrar()
+
+//Nuevo estándart
+
+const new_dog = {
+    pet_name,
+    pet_age,
+    raza: "Callejero",
+    ladrar() {
+        console.log("Waff! Waff! Waff!")
+    }
+}
+console.log(new_dog)
+new_dog.ladrar()

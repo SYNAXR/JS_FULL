@@ -58,7 +58,7 @@ let courses = new Array("HTML", "CSS", "JS");
 let course = courses[0]; // HTML
 console.log(course)
 
-//Redefiniendo un elemnto de un array
+//Redefiniendo un elemento de un array
 courses[1] = "C++"; //Changes the second element
 console.log(courses)
 

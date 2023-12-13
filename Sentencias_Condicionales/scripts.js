@@ -4,6 +4,21 @@ if (purchase>= 1500) {
     console.log(`Discount!`)
 };
 
+let medad = 17;
+
+if (medad > 17) {
+  console.log("Eres mayor de edad.")
+} else {
+  console.log("Eres menor de edad.")
+}
+
+//Operador ternario
+medad = 20
+let gogo = (medad >= 18) 
+? "Eres mayor de edad."
+: "Eres menor de edad.";
+console.log(gogo)
+
 //Usando dos variables en la comparación
 let player = 'John';
 let points = 144;
@@ -75,4 +90,3 @@ switch(color) {
   default: 
     console.log("Color not found.");
 }
-console.log(`Prueba Lazaro Pina 2.`)
