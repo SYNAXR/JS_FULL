@@ -14,7 +14,7 @@ console.log(b[2]);
 console.log(b[10]);// Muestra "undefined"
 
 //Recorriendo un array dentro de otro array
-console.log(b[3][2]);
+console.log(b[3][2]);//hghgffhghgcgh
 
 //Métodos de declarar arreglos
 const e = new Array();
