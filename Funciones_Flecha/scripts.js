@@ -25,7 +25,7 @@ console.log(sumar(8, 9)) */
 
 const sumar = (a, b) => a + b
 
-console.log(sumar(8,9))
+console.log(sumar(8, 9))
 
 const funcionDeVariasLineas = () => {
     console.log("Uno")
