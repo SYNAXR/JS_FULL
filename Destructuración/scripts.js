@@ -8,7 +8,7 @@ let tres = numeros[2]
 
 console.log(uno, dos, tres)
 
-//Con destruturación
+//Con destructuración
 
 const [one, two, three] = numeros
 console.log(one, two, three)

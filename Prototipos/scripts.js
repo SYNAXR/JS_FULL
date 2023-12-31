@@ -6,7 +6,7 @@ Objetos - Es una instancia de una clase.
 -Métodos - Acciones que un objeto puede realizar(funciones )
 */
 
-const animal = {
+/* const animal = {
     nombre: "Snoopy", 
     sonar() {
         console.log("Hago sonidos porque estoy vivo")
@@ -21,7 +21,7 @@ const animal2 = {
 }
 
 console.log(animal)
-console.log(animal2)
+console.log(animal2) */
 
 //Función constructora
 function Animal(nombre, género) {
