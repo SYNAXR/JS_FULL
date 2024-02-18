@@ -1,0 +1,11 @@
+{
+    "string": "Jon",
+    "number": 35,
+    "boolean": true,
+    "array": ["run", "programing", "cook"],
+    "object": {
+        "twitter": "@jonmircha",
+        "email": "jonmircha@gmail.com"
+    },
+    "null": null
+}
